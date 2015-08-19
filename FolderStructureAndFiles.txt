@@ -1,0 +1,68 @@
+.:
+total 66656
+drwxrwxr-x 4 lufolg lufolg     4096 Aug 18 23:55 .
+drwxrwxrwx 9 lufolg lufolg     4096 Aug 15 22:59 ..
+-rw-rw-r-- 1 lufolg lufolg 62556944 Jan 15  2014 Dataset.zip
+-rw-rw-r-- 1 lufolg lufolg  5391177 Aug 18 23:52 .RData
+-rw-rw-r-- 1 lufolg lufolg    17454 Aug 18 23:52 .Rhistory
+-rw-rw-r-- 1 lufolg lufolg     7727 Aug 18 23:48 run_analysis.R
+-rw-rw-r-- 1 lufolg lufolg    31312 Aug 18 23:49 TidyData-codebook.txt
+-rw-rw-r-- 1 lufolg lufolg   224570 Aug 18 23:49 TidyData.txt
+drwxrwxr-x 4 lufolg lufolg     4096 Aug 18 19:01 UCI HAR Dataset
+
+./UCI HAR Dataset:
+total 48
+drwxrwxr-x 4 lufolg lufolg  4096 Aug 18 19:01 .
+drwxrwxr-x 4 lufolg lufolg  4096 Aug 18 23:55 ..
+-rw-rw-r-- 1 lufolg lufolg    80 Aug 18 23:49 activity_labels.txt
+-rw-rw-r-- 1 lufolg lufolg  2809 Aug 18 23:49 features_info.txt
+-rw-rw-r-- 1 lufolg lufolg 15785 Aug 18 23:49 features.txt
+-rw-rw-r-- 1 lufolg lufolg  4453 Aug 18 23:49 README.txt
+drwxrwxr-x 3 lufolg lufolg  4096 Aug 18 19:01 test
+drwxrwxr-x 3 lufolg lufolg  4096 Aug 18 19:01 train
+
+./UCI HAR Dataset/test:
+total 25868
+drwxrwxr-x 3 lufolg lufolg     4096 Aug 18 19:01 .
+drwxrwxr-x 4 lufolg lufolg     4096 Aug 18 19:01 ..
+drwxrwxr-x 2 lufolg lufolg     4096 Aug 18 19:01 Inertial Signals
+-rw-rw-r-- 1 lufolg lufolg     7934 Aug 18 23:49 subject_test.txt
+-rw-rw-r-- 1 lufolg lufolg 26458166 Aug 18 23:49 X_test.txt
+-rw-rw-r-- 1 lufolg lufolg     5894 Aug 18 23:49 y_test.txt
+
+./UCI HAR Dataset/test/Inertial Signals:
+total 53108
+drwxrwxr-x 2 lufolg lufolg    4096 Aug 18 19:01 .
+drwxrwxr-x 3 lufolg lufolg    4096 Aug 18 19:01 ..
+-rw-rw-r-- 1 lufolg lufolg 6041350 Aug 18 23:49 body_acc_x_test.txt
+-rw-rw-r-- 1 lufolg lufolg 6041350 Aug 18 23:49 body_acc_y_test.txt
+-rw-rw-r-- 1 lufolg lufolg 6041350 Aug 18 23:49 body_acc_z_test.txt
+-rw-rw-r-- 1 lufolg lufolg 6041350 Aug 18 23:49 body_gyro_x_test.txt
+-rw-rw-r-- 1 lufolg lufolg 6041350 Aug 18 23:49 body_gyro_y_test.txt
+-rw-rw-r-- 1 lufolg lufolg 6041350 Aug 18 23:49 body_gyro_z_test.txt
+-rw-rw-r-- 1 lufolg lufolg 6041350 Aug 18 23:49 total_acc_x_test.txt
+-rw-rw-r-- 1 lufolg lufolg 6041350 Aug 18 23:49 total_acc_y_test.txt
+-rw-rw-r-- 1 lufolg lufolg 6041350 Aug 18 23:49 total_acc_z_test.txt
+
+./UCI HAR Dataset/train:
+total 64508
+drwxrwxr-x 3 lufolg lufolg     4096 Aug 18 19:01 .
+drwxrwxr-x 4 lufolg lufolg     4096 Aug 18 19:01 ..
+drwxrwxr-x 2 lufolg lufolg     4096 Aug 18 19:01 Inertial Signals
+-rw-rw-r-- 1 lufolg lufolg    20152 Aug 18 23:49 subject_train.txt
+-rw-rw-r-- 1 lufolg lufolg 66006256 Aug 18 23:49 X_train.txt
+-rw-rw-r-- 1 lufolg lufolg    14704 Aug 18 23:49 y_train.txt
+
+./UCI HAR Dataset/train/Inertial Signals:
+total 132488
+drwxrwxr-x 2 lufolg lufolg     4096 Aug 18 19:01 .
+drwxrwxr-x 3 lufolg lufolg     4096 Aug 18 19:01 ..
+-rw-rw-r-- 1 lufolg lufolg 15071600 Aug 18 23:49 body_acc_x_train.txt
+-rw-rw-r-- 1 lufolg lufolg 15071600 Aug 18 23:49 body_acc_y_train.txt
+-rw-rw-r-- 1 lufolg lufolg 15071600 Aug 18 23:49 body_acc_z_train.txt
+-rw-rw-r-- 1 lufolg lufolg 15071600 Aug 18 23:49 body_gyro_x_train.txt
+-rw-rw-r-- 1 lufolg lufolg 15071600 Aug 18 23:49 body_gyro_y_train.txt
+-rw-rw-r-- 1 lufolg lufolg 15071600 Aug 18 23:49 body_gyro_z_train.txt
+-rw-rw-r-- 1 lufolg lufolg 15071600 Aug 18 23:49 total_acc_x_train.txt
+-rw-rw-r-- 1 lufolg lufolg 15071600 Aug 18 23:49 total_acc_y_train.txt
+-rw-rw-r-- 1 lufolg lufolg 15071600 Aug 18 23:49 total_acc_z_train.txt

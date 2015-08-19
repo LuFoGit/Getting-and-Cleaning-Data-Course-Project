@@ -60,7 +60,7 @@ run_analysis.R <- function() {
   dim(tests)
   #[1] 2947  1
   
-  # add y to table x
+  # add columns to table x
   # attention, use column numbering, do not give column names as this spoils rbind later on (?)
   testx[,562] <- "test"
   testx[,563] <- tests[,1]
@@ -201,7 +201,7 @@ run_analysis.R <- function() {
   tnt5<-aggregate(tnt4[1:66], tnt4[,68:70], FUN=mean)
   tnt5$Activity<-NULL
   # dim(tnt5)
-  #[1] 10299    70
+  #[1] 180    70
   
   write.table(tnt5, "TidyData.txt", row.names = FALSE)
   
