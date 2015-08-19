@@ -7,9 +7,9 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 4. Code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md 
 5. (This) README.md to explain how all of the scripts work and how they are connected
 
-# Data considerations
+# Source data considerations
 
-With analysis of origin data (see also FolderStructureAndFiles.txt) some files seemed to fit together like a puzzle with some files als columns and some as observation addition to main data files.
+With analysis of origin data (see also FolderStructureAndFiles.txt) some files seemed to fit together like puzzle stones with some files als columns and some as observation addition to main data files.
 
 filename | dimensions | (expected) content
 ---------|------------|-------------------
@@ -28,7 +28,7 @@ So the structure for merging all these files together was planned:
 
 1. Add y and subject columns to X test data
 2. Add y and subject columns to X train data
-3. rbind test and train data to a 10200x561 table (called tnt for "Test and Train" ;-) )
+3. rbind test and train data to a 10299x561 table (called tnt for "Test and Train" ;-) )
 4. Rename 561 column headers by features list
 5. Replace numeric activity column by activity labels
 
